@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movies</title>
+</head>
+<body>
+ <h1>MOVIES</h1>
+ <div class ="container">
+	<h1>choose an option...</h1>
+	
+	<h1>Add a Movie</h1>
+	<form id="add" method="post" action="/movies/add">
+	    <label for="name">Movie Name:</label><br>
+	    <input type="text" id="name" name="name" placeholder="Enter movie name" required><br><br>
+	    
+	    <label for="year">Release Year:</label><br>
+	    <input type="number" id="year" name="year" placeholder="Enter release year" required><br><br>
+	    
+	    <input type="submit" value="Add the Movie">
+	</form>
+	
+	<h1>Find a Movie by ID</h1>
+    <form id="get" method="get" action="/movies/{id}">
+        <label for="getMovieId">Movie ID:</label><br>
+        <input type="number" id="getMovieId" name="id" placeholder="Enter movie ID to search"><br><br>
+        
+        <input type="submit" value="Find Movie">
+    </form>
+    
+    <h1>Update existing movie</h1>
+    <form id="updateMovieForm" method="patch" action="/movies/update">
+   		<label for="movieId">Movie ID:</label><br>
+   		<input type="number" id="movieId" name="id" placeholder="Enter Movie ID" required><br><br>
+
+    	<label for="movieName">Movie Name:</label><br>
+    	<input type="text" id="movieName" name="name" placeholder="Enter Movie Name" required><br><br>
+
+    	<label for="movieYear">Movie Year:</label><br>
+    	<input type="number" id="movieYear" name="year" placeholder="Enter Movie Year" required><br><br>
+
+    	<input type="submit" value="Update Movie">
+</form>
+    
+ </div>
+ 
+</body>
+</html>
