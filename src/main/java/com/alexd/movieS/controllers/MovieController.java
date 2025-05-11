@@ -4,18 +4,15 @@ package com.alexd.movieS.controllers;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import com.alexd.movieS.Entities.MovieEntity;
@@ -25,24 +22,25 @@ import com.alexd.movieS.service.MovieService;
 @RequestMapping("/movies")
 public class MovieController {
 	
-	@Autowired
+	final
 	MovieService movieService;
-	
+
+	public MovieController(MovieService movieService) {
+		this.movieService = movieService;
+	}
+
 	@GetMapping
 	public List<MovieEntity> getAllMovies () {
 		return movieService.getAllMovies();
 	}
-	
+
 	@GetMapping("/{id}")
 	public ResponseEntity<MovieEntity> getMovieById (@RequestParam Long id) {
 		Optional<MovieEntity> data = movieService.getMovieById(id);
-		
-		if(data.isPresent()) return ResponseEntity.ok(data.get());
-		
-		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
-		
-	}
-	
+
+        return data.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND).body(null));
+    }
+
 	@PostMapping("/add")
 	public ResponseEntity<MovieEntity> addMovie (
 			@RequestParam String name,
@@ -56,8 +54,8 @@ public class MovieController {
 		return ResponseEntity.ok(movieObj);
 	}
 	
-	@PatchMapping("/update/{id}")
-	public ResponseEntity<MovieEntity> updateMovie(@RequestParam Long id, @RequestBody MovieEntity newMovie) {
+	@PostMapping("/update/{id}")
+	public ResponseEntity<MovieEntity> updateMovie(@PathVariable ("id") Long id, @RequestBody MovieEntity newMovie) {
 	    Optional<MovieEntity> data = movieService.getMovieById(id);
 	    
 	    if (data.isPresent()) {

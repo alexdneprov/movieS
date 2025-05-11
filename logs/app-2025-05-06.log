@@ -1,0 +1,17 @@
+2025-05-06 00:41:58 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s43ms).
+2025-05-06 00:58:03 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m34s813ms).
+2025-05-06 01:01:31 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@17c2551b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:31 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5d1b05bd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:31 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5f43d1e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:31 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1bda36 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:31 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@756f0f82 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:32 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@70dcca7f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:32 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@546415b7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:32 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@af0af67 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:32 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@76eb2a4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:32 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@11770f04 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-06 01:01:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-06 01:01:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-06 01:01:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 01:01:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-06 01:01:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
