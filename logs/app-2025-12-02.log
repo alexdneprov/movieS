@@ -1,0 +1,116 @@
+2025-12-02 00:22:24 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@5b555d0a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 00:54:04 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@1859d8f1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 00:54:08 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@6e18dec2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 01:09:33 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h20m19s549ms).
+2025-12-02 01:09:37 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@672955eb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 01:19:34 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@31e197af (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 01:36:48 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=27m15s69ms).
+2025-12-02 01:50:18 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@5b2ff68c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 01:50:22 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@4be5cb9f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 02:22:23 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@76f65c3e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 02:22:24 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@7a8efb2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 02:57:06 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h20m18s307ms).
+2025-12-02 03:08:07 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@62f465eb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 03:21:41 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@3e897f96 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 03:38:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=41m48s819ms).
+2025-12-02 03:55:29 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@3f863b9f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 04:43:41 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@52284e1e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 05:17:51 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@44ec4e58 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 05:17:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h38m57s694ms).
+2025-12-02 05:17:55 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@34e96933 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 05:47:42 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@38af632b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 06:21:27 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@36462d8e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 06:21:30 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h3m37s417ms).
+2025-12-02 06:38:54 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@aecfea7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 06:38:58 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@2ff97b36 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 07:48:35 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h27m4s623ms).
+2025-12-02 07:48:39 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@28d4091a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 08:49:38 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@47efd1fc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 08:49:44 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m9s476ms).
+2025-12-02 08:49:48 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@2b3f635a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 08:49:50 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@60d112f4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 08:49:52 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a9770c0 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 09:09:45 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@4a62f57b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 09:09:47 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@391fc247 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 09:25:52 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=36m8s344ms).
+2025-12-02 09:49:21 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@182fb4d4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 09:50:33 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@1d338f83 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 09:50:39 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@5a797b98 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 10:22:03 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=56m10s627ms).
+2025-12-02 11:10:56 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=48m52s391ms).
+2025-12-02 11:11:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@20ad2609 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 11:27:13 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@3057f007 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 11:27:15 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@696e292f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 11:27:15 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@5763bda0 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 11:52:39 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=41m43s296ms).
+2025-12-02 11:54:59 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@58bba883 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 12:29:10 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@36ba2ec3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 12:53:37 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s680ms).
+2025-12-02 13:40:08 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=46m30s966ms).
+2025-12-02 14:29:16 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=49m7s345ms).
+2025-12-02 15:47:17 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h18m1s485ms).
+2025-12-02 16:49:09 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m51s489ms).
+2025-12-02 17:13:27 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=24m18s380ms).
+2025-12-02 17:14:21 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54s128ms).
+2025-12-02 17:37:57 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=23m35s352ms).
+2025-12-02 18:14:17 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=36m20s120ms).
+2025-12-02 18:42:45 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=28m28s501ms).
+2025-12-02 19:10:33 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=27m47s924ms).
+2025-12-02 19:18:49 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m15s436ms).
+2025-12-02 19:31:35 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=12m46s505ms).
+2025-12-02 20:31:44 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m37s940ms).
+2025-12-02 20:44:11 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=12m26s863ms).
+2025-12-02 20:44:22 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@79045bb5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:26 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a45fa95 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:28 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@166f0c87 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:31 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@4d6d340c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:32 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@4070da1b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:37 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@75d401d2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:38 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@3fd8bae5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:38 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@793e1f07 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:40 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@2cb15b63 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 20:44:45 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@3e1491d6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:21:53 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@3f43919a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:01 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@46ff3a5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:06 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@65ea77dd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:07 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m55s405ms).
+2025-12-02 22:22:16 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@63f17680 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:21 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@24ea7aea (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:26 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@7e2fa5d2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:36 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@168299e1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:41 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@360868db (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:22:49 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@350a5afd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:23:22 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@656c8208 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 22:23:23 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Pool is empty, failed to create/setup connection (ee444f79-06d9-4a92-9cc0-bf8f8a46d271)
+org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:385)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:277)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:370)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:207)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.net.UnknownHostException: dpg-d4l9tsre5dus73flgn1g-a.oregon-postgres.render.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:558)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282)
+	at java.base/java.net.Socket.connect(Socket.java:665)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:261)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:122)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:146)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289)
+	... 14 common frames omitted
+2025-12-02 22:47:03 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=51s921ms).
+2025-12-02 23:04:15 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@77ed1d8b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 23:54:40 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@6d4f94e6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 23:56:21 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@59ab9499 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 23:56:22 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h9m18s804ms).
+2025-12-02 23:56:52 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@35a0bf38 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-02 23:57:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to validate connection org.postgresql.jdbc.PgConnection@333ed237 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.

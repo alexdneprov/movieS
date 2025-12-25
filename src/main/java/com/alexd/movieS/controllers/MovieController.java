@@ -15,11 +15,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import com.alexd.movieS.DTO.MovieRequest;
 import com.alexd.movieS.Entities.MovieEntity;
 import com.alexd.movieS.service.MovieService;
 
 @RestController
-@RequestMapping("/movies")
+@RequestMapping("api/movies")
 public class MovieController {
 	
 	final
@@ -33,29 +34,29 @@ public class MovieController {
 	public List<MovieEntity> getAllMovies () {
 		return movieService.getAllMovies();
 	}
-
+	
 	@GetMapping("/{id}")
-	public ResponseEntity<MovieEntity> getMovieById (@RequestParam Long id) {
+	public ResponseEntity<?> getMovieById (@PathVariable Long id) {
 		Optional<MovieEntity> data = movieService.getMovieById(id);
 
-        return data.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND).body(null));
+        return data.map(ResponseEntity::ok)
+        		.orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND).body(null));
     }
 
 	@PostMapping("/add")
 	public ResponseEntity<MovieEntity> addMovie (
-			@RequestParam String name,
-		    @RequestParam int year) 
+			@RequestBody MovieRequest body) 
 	{
 		MovieEntity movieEntity = new MovieEntity();
-	    movieEntity.setName(name);
-	    movieEntity.setYear(year);
+	    movieEntity.setName(body.getName());
+	    movieEntity.setYear(body.getYear());
 		
 		MovieEntity movieObj = movieService.saveOrUpdateMovie(movieEntity);
 		return ResponseEntity.ok(movieObj);
 	}
 	
 	@PostMapping("/update/{id}")
-	public ResponseEntity<MovieEntity> updateMovie(@PathVariable ("id") Long id, @RequestBody MovieEntity newMovie) {
+	public ResponseEntity<MovieEntity> updateMovie(@PathVariable Long id, @RequestBody MovieEntity newMovie) {
 	    Optional<MovieEntity> data = movieService.getMovieById(id);
 	    
 	    if (data.isPresent()) {

@@ -1,0 +1,341 @@
+2025-12-17 00:14:38 INFO  com.alexd.movieS.MovieSApplication - Starting MovieSApplication using Java 24.0.1 with PID 24387 (/Users/alekd/eclipse-workspace/movieS/target/classes started by alekd in /Users/alekd/eclipse-workspace/movieS)
+2025-12-17 00:14:38 INFO  com.alexd.movieS.MovieSApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 00:14:38 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-17 00:14:38 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alexd.movieS.repo.MoviesRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-12-17 00:14:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2025-12-17 00:14:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 00:14:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:14:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 00:14:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-12-17 00:14:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 00:14:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 512 ms
+2025-12-17 00:14:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-17 00:14:39 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1a7733
+2025-12-17 00:14:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-17 00:14:39 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-17 00:14:39 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-12-17 00:14:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-17 00:14:40 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-17 00:14:40 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-17 00:14:40 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-17 00:14:40 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-17 00:14:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:14:40 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-17 00:14:41 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-12-17 00:14:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:14:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 00:14:41 INFO  com.alexd.movieS.MovieSApplication - Started MovieSApplication in 2.865 seconds (process running for 3.202)
+2025-12-17 00:15:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-17 00:15:05 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-17 00:15:05 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-17 00:33:21 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-12-17 00:33:21 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 00:33:21 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:21 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 00:33:21 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:33:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-17 00:33:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-17 00:33:21 INFO  com.alexd.movieS.MovieSApplication - Starting MovieSApplication using Java 24.0.1 with PID 24387 (/Users/alekd/eclipse-workspace/movieS/target/classes started by alekd in /Users/alekd/eclipse-workspace/movieS)
+2025-12-17 00:33:21 INFO  com.alexd.movieS.MovieSApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alexd.movieS.repo.MoviesRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-12-17 00:33:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2025-12-17 00:33:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 00:33:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 00:33:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-12-17 00:33:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 00:33:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 110 ms
+2025-12-17 00:33:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-12-17 00:33:22 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5a74473c
+2025-12-17 00:33:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-12-17 00:33:22 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-17 00:33:22 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-17 00:33:22 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-17 00:33:22 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-17 00:33:22 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-17 00:33:22 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-17 00:33:22 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:33:22 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-17 00:33:23 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-12-17 00:33:23 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 00:33:23 INFO  com.alexd.movieS.MovieSApplication - Started MovieSApplication in 1.556 seconds (process running for 1125.058)
+2025-12-17 00:33:23 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-12-17 00:33:24 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
+2025-12-17 00:33:24 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 00:33:24 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:24 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 00:33:24 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:24 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:33:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-12-17 00:33:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-12-17 00:33:24 INFO  com.alexd.movieS.MovieSApplication - Starting MovieSApplication using Java 24.0.1 with PID 24387 (/Users/alekd/eclipse-workspace/movieS/target/classes started by alekd in /Users/alekd/eclipse-workspace/movieS)
+2025-12-17 00:33:24 INFO  com.alexd.movieS.MovieSApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alexd.movieS.repo.MoviesRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-12-17 00:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2025-12-17 00:33:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 00:33:25 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:25 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 00:33:25 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-12-17 00:33:25 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 00:33:25 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 78 ms
+2025-12-17 00:33:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-12-17 00:33:25 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@5f7ec14d
+2025-12-17 00:33:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-12-17 00:33:25 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-17 00:33:25 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-17 00:33:25 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-17 00:33:25 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-17 00:33:25 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-17 00:33:25 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-17 00:33:26 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:33:26 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-17 00:33:26 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-12-17 00:33:26 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:33:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 00:33:26 INFO  com.alexd.movieS.MovieSApplication - Started MovieSApplication in 1.503 seconds (process running for 1128.379)
+2025-12-17 00:33:26 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-12-17 00:34:41 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-12-17 00:34:41 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 00:34:41 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:41 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 00:34:41 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:34:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-12-17 00:34:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-12-17 00:34:41 INFO  com.alexd.movieS.MovieSApplication - Starting MovieSApplication using Java 24.0.1 with PID 24387 (/Users/alekd/eclipse-workspace/movieS/target/classes started by alekd in /Users/alekd/eclipse-workspace/movieS)
+2025-12-17 00:34:41 INFO  com.alexd.movieS.MovieSApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alexd.movieS.repo.MoviesRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-12-17 00:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2025-12-17 00:34:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 00:34:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 00:34:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-12-17 00:34:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 00:34:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 76 ms
+2025-12-17 00:34:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-12-17 00:34:42 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@6d6a0603
+2025-12-17 00:34:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-12-17 00:34:42 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-17 00:34:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-17 00:34:42 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-17 00:34:42 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-17 00:34:42 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-17 00:34:42 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-17 00:34:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:34:43 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-17 00:34:43 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-12-17 00:34:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 00:34:43 INFO  com.alexd.movieS.MovieSApplication - Started MovieSApplication in 1.579 seconds (process running for 1205.423)
+2025-12-17 00:34:43 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-12-17 00:34:44 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
+2025-12-17 00:34:44 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 00:34:44 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:44 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 00:34:44 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:34:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-12-17 00:34:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-12-17 00:34:45 INFO  com.alexd.movieS.MovieSApplication - Starting MovieSApplication using Java 24.0.1 with PID 24387 (/Users/alekd/eclipse-workspace/movieS/target/classes started by alekd in /Users/alekd/eclipse-workspace/movieS)
+2025-12-17 00:34:45 INFO  com.alexd.movieS.MovieSApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alexd.movieS.repo.MoviesRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-12-17 00:34:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2025-12-17 00:34:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 00:34:45 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:45 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 00:34:45 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-12-17 00:34:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 00:34:45 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 75 ms
+2025-12-17 00:34:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-12-17 00:34:45 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@41218aaa
+2025-12-17 00:34:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-12-17 00:34:46 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-17 00:34:46 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-17 00:34:46 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-17 00:34:46 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-17 00:34:46 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-17 00:34:46 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-17 00:34:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 00:34:46 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-17 00:34:46 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-12-17 00:34:46 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 00:34:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 00:34:46 INFO  com.alexd.movieS.MovieSApplication - Started MovieSApplication in 1.436 seconds (process running for 1208.647)
+2025-12-17 00:34:46 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-12-17 00:53:06 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@41218aaa (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 00:53:08 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@541ebae (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 00:53:09 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@57efb926 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:00:24 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@678f94d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:00:26 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@2c8cf6ab (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:00:30 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@6005c95 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:00:30 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@47f36f89 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:00:33 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@32b6caa7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:18:21 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@79c44bf4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:18:21 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7da444ad (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 01:18:22 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=42m6s557ms).
+2025-12-17 02:37:21 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h18m59s175ms).
+2025-12-17 04:18:51 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h41m29s678ms).
+2025-12-17 05:27:46 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@2177e3b7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 05:27:46 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7ed08261 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 05:27:48 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h8m56s746ms).
+2025-12-17 05:27:50 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@210e303a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 05:27:52 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@3ffa15f7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 05:44:48 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@1d7ea252 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 05:44:50 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@67c7f816 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 06:16:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@37988b34 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 06:16:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@302630f9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 06:16:01 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@68f969a3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 06:16:01 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@1bcb8ea3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 06:35:37 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h7m49s88ms).
+2025-12-17 07:59:16 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h23m39s368ms).
+2025-12-17 09:08:46 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h9m30s16ms).
+2025-12-17 09:29:02 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@508e8eda (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 09:37:38 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@72b9022d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 09:37:39 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@111c9473 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 09:37:42 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@36fb4b17 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 09:54:37 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@ce98f8f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 09:54:38 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@38bf2001 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 09:54:41 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=45m55s210ms).
+2025-12-17 10:11:47 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@4d759469 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 10:11:48 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@616fbb7c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 10:25:03 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@20112078 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 10:25:10 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@3602b01d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 10:56:49 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h2m8s108ms).
+2025-12-17 12:17:56 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h21m6s203ms).
+2025-12-17 12:59:29 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=41m33s127ms).
+2025-12-17 13:17:24 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@391ae37 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:17:24 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@5090ecef (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:17:25 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@288d0a8e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:17:26 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@26e3f9be (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:27:11 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@5cee42f6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:27:12 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@bce2a10 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:27:16 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@4b57989d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:43:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@72c0a640 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 13:59:05 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=59m36s689ms).
+2025-12-17 14:28:11 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@5c17a31c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 14:28:12 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@51976b07 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 15:21:35 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h22m29s669ms).
+2025-12-17 16:21:47 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h12s35ms).
+2025-12-17 16:55:52 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@261225d3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 16:56:52 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=35m5s86ms).
+2025-12-17 17:02:47 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7d545b29 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:02:47 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@20fa4b47 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:02:48 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@448541b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:02:48 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@5b1adaa8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:02:50 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@4234166c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:18:20 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@3066dd1e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:26:23 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7648bf85 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:26:26 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@19ef0a05 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:30:09 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@1f67aa0b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 17:30:12 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=33m20s108ms).
+2025-12-17 19:04:05 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h33m52s406ms).
+2025-12-17 19:32:11 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=28m6s695ms).
+2025-12-17 19:52:03 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@e53203 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 19:52:03 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@432e66e6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 19:52:06 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@6bb16b54 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 19:56:09 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@426d390b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 19:56:13 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7e939c01 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 19:56:16 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=24m4s710ms).
+2025-12-17 20:06:56 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@4e3acc63 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:06:58 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e31e53b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:07:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@53f3497 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:07:00 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@672ed3a5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:21:49 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7fef52f7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:21:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=25m39s52ms).
+2025-12-17 20:34:45 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=12m50s83ms).
+2025-12-17 20:35:16 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@22b164cd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:16 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@36eebcba (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:23 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@5b153463 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:24 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@58d4ef40 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:28 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@1b1c938c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:34 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@69d80aa0 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:34 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@39ab778f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:40 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@46d403c5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:46 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@78ea5ae2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 20:35:51 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7c33afc2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 21:48:14 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@771e23aa (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 21:48:14 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=5m58s480ms).
+2025-12-17 22:01:31 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=13m16s724ms).
+2025-12-17 22:19:26 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@77483eb4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:22:58 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@676214af (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:03 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@16e26853 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:08 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@7a16d04a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:13 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@da674cb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:13 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=21m42s425ms).
+2025-12-17 22:23:18 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@80325dc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:28 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e15799b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:35 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@117baa2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:23:40 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@d872708 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:24:08 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@4763a8b6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:24:50 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Failed to validate connection org.postgresql.jdbc.PgConnection@29e56b9e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-17 22:26:43 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-12-17 22:26:43 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 22:26:43 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:26:43 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 22:26:43 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:26:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-17 22:26:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-12-17 22:26:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
