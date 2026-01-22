@@ -2,6 +2,10 @@ package com.alexd.movieS.service;
 
 import java.util.Date;
 import java.security.Key;
+
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import io.jsonwebtoken.Claims;
@@ -18,18 +22,29 @@ public class JwtService {
 	
 	private static final long EXPIRATION = 1000 * 60 * 60 * 24;
 	
-	public String generateToken (String username) {
-		return Jwts.builder()
-				.setSubject(username)
-				.setIssuedAt(new Date())
-				.setExpiration(new Date(System.currentTimeMillis() + EXPIRATION))
-				.signWith (key, SignatureAlgorithm.HS256)
-				.compact();
+	public String generateToken(Authentication authentication) {
+	    
+		UserDetails user = (UserDetails) authentication.getPrincipal();
+
+	    return Jwts.builder()
+	        .setSubject(user.getUsername())
+	        .claim("roles", user.getAuthorities().stream()
+	            .map(GrantedAuthority::getAuthority)
+	            .toList())
+	        .setIssuedAt(new Date())
+	        .setExpiration(new Date(System.currentTimeMillis() + EXPIRATION))
+	        .signWith(key, SignatureAlgorithm.HS256)
+	        .compact();
 	}
 	
 	public String extractUsername(String token) {
-        return getClaims(token).getSubject();
-    }
+	    return Jwts.parserBuilder()
+	               .setSigningKey(Keys.hmacShaKeyFor(SECRET.getBytes()))
+	               .build()
+	               .parseClaimsJws(token)
+	               .getBody()
+	               .getSubject();
+	}
 	
 	public boolean isTokenValid(String token) {
         try {

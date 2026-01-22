@@ -9,5 +9,7 @@ import com.alexd.movieS.Entities.UserEntity;
 
 @Repository
 public interface UsersRepository extends JpaRepository<UserEntity, Long> {
-	Optional<UserEntity> findByUsername (String username);
+	
+	Optional<UserEntity> findByUsername(String email); 
+    boolean existsByUsername(String email);
 }

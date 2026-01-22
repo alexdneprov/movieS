@@ -1,8 +1,10 @@
 package com.alexd.movieS.Entities;
 
 import java.util.Collection;
+import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import jakarta.persistence.Column;
@@ -18,10 +20,10 @@ public class UserEntity implements UserDetails {
 	
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private String username;
+	private Long id;
 	
 	@Column (nullable = false, unique = true)
-	private String name;
+	private String username;
 	
 	@Column (nullable = false)
 	private String password;
@@ -29,8 +31,37 @@ public class UserEntity implements UserDetails {
 	@Column (nullable = false)
 	private String role;
 	
+	@Column(nullable = false)
+    private boolean enabled = true;
+	
 	public UserEntity () {
 		
+	}
+	
+	public UserEntity(String email, String password, String role) {
+        this.username = email;
+        this.password = password;
+        this.role = role;
+    }
+
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		return List.of(new SimpleGrantedAuthority(role));
+	}
+
+	@Override
+	public String getUsername() {
+		return username;
+	}
+	
+	@Override
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+	
+	public String getPassword() {
+		return password;
 	}
 
 	public Long getId() {
@@ -41,22 +72,6 @@ public class UserEntity implements UserDetails {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
 	public String getRole() {
 		return role;
 	}
@@ -65,16 +80,12 @@ public class UserEntity implements UserDetails {
 		this.role = role;
 	}
 
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		// TODO Auto-generated method stub
-		return null;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
-	@Override
-	public String getUsername() {
-		// TODO Auto-generated method stub
-		return null;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 	
 	

@@ -20,14 +20,16 @@ public class AuthService {
 	}
 	
 	public AuthResponse login (LoginRequest request) {
-		Authentication authentication = new UsernamePasswordAuthenticationToken (
-				request.getEmail(),
-				request.getPassword()
-				);
-		authenticationManager.authenticate(authentication);
 		
-		String token = jwtService.generateToken(request.getEmail());
-		
-		return new AuthResponse(token);
+		Authentication auth = authenticationManager.authenticate(
+			    new UsernamePasswordAuthenticationToken(
+			        request.getEmail(),
+			        request.getPassword()
+			    )
+			);
+
+			String token = jwtService.generateToken(auth);
+			
+			return new AuthResponse(token);
 	}
 }
