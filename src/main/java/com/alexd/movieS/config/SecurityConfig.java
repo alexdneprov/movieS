@@ -48,7 +48,8 @@ public class SecurityConfig {
             );
 
         
-        http.addFilterAfter(jwtAuthFilter, org.springframework.web.filter.CorsFilter.class);
+        http.addFilterBefore(jwtAuthFilter,
+                org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }

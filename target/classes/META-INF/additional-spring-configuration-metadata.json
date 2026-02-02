@@ -1,5 +1,12 @@
-{"properties": [{
-  "name": "liquibase.checksums.validateOnMigrate",
-  "type": "java.lang.String",
-  "description": "A description for 'liquibase.checksums.validateOnMigrate'"
-}]}
+{"properties": [
+  {
+    "name": "liquibase.checksums.validateOnMigrate",
+    "type": "java.lang.String",
+    "description": "A description for 'liquibase.checksums.validateOnMigrate'"
+  },
+  {
+    "name": "//spring.jpa.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for '//spring.jpa.hibernate.ddl-auto'"
+  }
+]}
