@@ -8,5 +8,10 @@
     "name": "//spring.jpa.hibernate.ddl-auto",
     "type": "java.lang.String",
     "description": "A description for '//spring.jpa.hibernate.ddl-auto'"
+  },
+  {
+    "name": "tmdb.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'tmdb.api.key'"
   }
 ]}

@@ -1,13 +1,22 @@
 package com.alexd.movieS.DTO;
 
 public class MovieRequest {
-    private String name;
-    private int year;
+    private String title;
+    private String overview;
+    private Integer releaseYear;
+    private Double rating;
 
-    
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public MovieRequest() {}
 
-    public int getYear() { return year; }
-    public void setYear(int year) { this.year = year; }
+    public String getTitle() { return title; }
+    public void setTitle(String title) { this.title = title; }
+
+    public String getOverview() { return overview; }
+    public void setOverview(String overview) { this.overview = overview; }
+
+    public Integer getReleaseYear() { return releaseYear; }
+    public void setReleaseYear(Integer releaseYear) { this.releaseYear = releaseYear; }
+
+    public Double getRating() { return rating; }
+    public void setRating(Double rating) { this.rating = rating; }
 }

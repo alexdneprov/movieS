@@ -43,28 +43,35 @@ public class MovieController {
     }
 
 	@PostMapping("/add")
-	public ResponseEntity<MovieEntity> addMovie (
-			@RequestBody MovieRequest body) 
-	{
+	public ResponseEntity<MovieEntity> addMovie (@RequestBody MovieRequest body) {
+
 		MovieEntity movieEntity = new MovieEntity();
-	    movieEntity.setName(body.getName());
-	    movieEntity.setYear(body.getYear());
+		
+		movieEntity.setTitle(body.getTitle());
+	    movieEntity.setOverview(body.getOverview());
+	    movieEntity.setReleaseYear(body.getReleaseYear());
+	    movieEntity.setRating(body.getRating());
 		
 		MovieEntity movieObj = movieService.saveOrUpdateMovie(movieEntity);
 		return ResponseEntity.ok(movieObj);
 	}
 	
 	@PostMapping("/update/{id}")
-	public ResponseEntity<MovieEntity> updateMovie(@PathVariable Long id, @RequestBody MovieEntity newMovie) {
+	public ResponseEntity<MovieEntity> updateMovie(@PathVariable Long id, @RequestBody MovieRequest updateRequest) {
 	    Optional<MovieEntity> data = movieService.getMovieById(id);
 	    
 	    if (data.isPresent()) {
 	        MovieEntity updatedMovie = data.get();
-	        updatedMovie.setName(newMovie.getName());
-	        updatedMovie.setYear(newMovie.getYear());
+	        
+	        updatedMovie.setTitle(updateRequest.getTitle());
+	        updatedMovie.setOverview(updateRequest.getOverview());
+	        updatedMovie.setReleaseYear(updateRequest.getReleaseYear());
+	        updatedMovie.setRating(updateRequest.getRating());
 	        
 	        MovieEntity updData = movieService.saveOrUpdateMovie(updatedMovie);
+	        
 	        return new ResponseEntity<>(updData, HttpStatus.OK);
+	        
 	    } else {
 	        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 	    }

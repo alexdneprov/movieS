@@ -17,10 +17,15 @@ public class MovieEntity {
 	private Long id;
 	
 	@Column
-	private String name;
+	private String title;
+	
+	@Column(columnDefinition = "TEXT")
+    private String overview;
 	
 	@Column
-	private int year;
+	private Integer releaseYear;
+	
+	private Double rating;
 
 	public MovieEntity() {
 		
@@ -34,21 +39,36 @@ public class MovieEntity {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public int getYear() {
-		return year;
+	public String getOverview() {
+		return overview;
 	}
 
-	public void setYear(int year) {
-		this.year = year;
+	public void setOverview(String overview) {
+		this.overview = overview;
 	}
-	
-	
+
+	public Integer getReleaseYear() {
+		return releaseYear;
+	}
+
+	public void setReleaseYear(Integer releaseYear) {
+		this.releaseYear = releaseYear;
+	}
+
+	public Double getRating() {
+		return rating;
+	}
+
+	public void setRating(Double rating) {
+		this.rating = rating;
+	}
+
 }
